@@ -1,0 +1,11 @@
+# See https://github.com/github/linguist
+# Default behavior
+# Normalize line endings
+*.md linguist-documentation
+
+src/**/*.js linguist-detectable
+yarn.lock linguist-generated
+
+*.sh text eol=lf
+*.html linguist-vendored
+# eof 3e271909
